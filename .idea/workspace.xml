@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fcde32bf-dc10-4d91-8163-9a89f0d3d06d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/config/env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/jest/cssTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/jest/fileTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/modules.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/paths.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/pnpTs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/webpackDevServer.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/start.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Photos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Photos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UploadVideoActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/UploadVideoActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/config/webpackDevServer.config.js" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1UmvhEj1KkJWCCdmK4QDO4GfMMk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="webpack.config.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/config/webpack.config.js" working-dir="$PROJECT_DIR$/config">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Debug Application" />
+      <item itemvalue="Node.js.webpack.config.js" />
+      <item itemvalue="npm.npm start" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.webpack.config.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fcde32bf-dc10-4d91-8163-9a89f0d3d06d" name="Default Changelist" comment="" />
+      <created>1575974701153</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575974701153</updated>
+      <workItem from="1575974703335" duration="6997000" />
+      <workItem from="1576075146141" duration="2746000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="744" y="392" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576063584156">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="744" y="392" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1417/2560.-118.1080.1897@0.23.2560.1417" timestamp="1576063584156" />
+    <state x="940" y="410" key="#npm_start" timestamp="1576067883175">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="940" y="410" key="#npm_start/0.23.2560.1417/2560.-118.1080.1897@0.23.2560.1417" timestamp="1576067883175" />
+    <state width="2539" height="388" key="GridCell.Tab.0.bottom" timestamp="1576075931561">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2539" height="388" key="GridCell.Tab.0.bottom/0.23.2560.1417/2560.-118.1080.1897@0.23.2560.1417" timestamp="1576075931561" />
+    <state width="2539" height="388" key="GridCell.Tab.0.center" timestamp="1576075931559">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2539" height="388" key="GridCell.Tab.0.center/0.23.2560.1417/2560.-118.1080.1897@0.23.2560.1417" timestamp="1576075931559" />
+    <state width="2539" height="388" key="GridCell.Tab.0.left" timestamp="1576075931557">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2539" height="388" key="GridCell.Tab.0.left/0.23.2560.1417/2560.-118.1080.1897@0.23.2560.1417" timestamp="1576075931557" />
+    <state width="2539" height="388" key="GridCell.Tab.0.right" timestamp="1576075931560">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2539" height="388" key="GridCell.Tab.0.right/0.23.2560.1417/2560.-118.1080.1897@0.23.2560.1417" timestamp="1576075931560" />
+    <state x="811" y="379" key="SettingsEditor" timestamp="1576060729818">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="811" y="379" key="SettingsEditor/0.23.2560.1417/2560.-118.1080.1897@0.23.2560.1417" timestamp="1576060729818" />
+    <state x="1027" y="649" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576080878613">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1027" y="649" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.2560.1417/2560.-118.1080.1897@0.23.2560.1417" timestamp="1576080878613" />
+    <state x="917" y="340" width="725" height="783" key="find.popup" timestamp="1576067549558">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="917" y="340" width="725" height="783" key="find.popup/0.23.2560.1417/2560.-118.1080.1897@0.23.2560.1417" timestamp="1576067549558" />
+    <state x="945" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1576065844584">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="945" y="348" width="670" height="676" key="search.everywhere.popup/0.23.2560.1417/2560.-118.1080.1897@0.23.2560.1417" timestamp="1576065844584" />
+  </component>
+</project>
