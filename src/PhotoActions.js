@@ -25,7 +25,7 @@ export const requestPhotos = (user) => {
 
 export const fetchPhotos = (user) => {
   return dispatch => {
-      fetch("http://localhost:3001/photos.json")
+      fetch(process.env.REACT_APP_RAILS + "/photos.json")
         .then(response => response.json())
         .then(json => dispatch(receivePhotos(json)))
   }

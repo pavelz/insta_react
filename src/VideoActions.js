@@ -14,12 +14,12 @@ updateStatus = (status) => {
     }
 };
 
-export const uploadVideo = (file, auth_token, video) => {
+export const uploadVideo = (file, auth_token, video_status) => {
     let form = new FormData();
     form.append("video[video]", file);
     form.append("video[name]", file.name);
 
-    fetch("http://localhost:3001/videos", {
+    fetch(process.env.REACT_APP_RAILS + "/videos", {
         method: 'POST',
         body: form,
         headers: {
@@ -27,10 +27,10 @@ export const uploadVideo = (file, auth_token, video) => {
     })
         .then(response => {
             if (response.ok) {
-                video(<div className="text-success">Uploaded successfully</div>)
+                video_status(<div className="text-success">Uploaded successfully</div>)
                 return response.json()
             } else {
-                video(<div className="text-danger">Error uploading.</div>)
+                video_status(<div className="text-danger">Error uploading.</div>)
                 let error = response.status;
                 console.log("An error occured: ", error);
                 return null

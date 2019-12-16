@@ -53,9 +53,11 @@ class Photos extends React.Component {
                             {(() => {
                                 switch(photo.class) {
                                     case 'Photo':
-                                        return (<div><a href={photo.around_url}>{photo.location_name}</a> <br/> <img onClick={e => { this.deletePhoto(photo) }} src={"http://localhost:3001/" + photo.url}/></div>)
+                                        return (<div><a href={photo.around_url}>{photo.location_name}</a> <br/> <img onClick={e => { this.deletePhoto(photo) }} src={process.env.REACT_APP_RAILS + photo.url}/></div>)
                                     case 'Video':
-                                        return <embed src={"http://localhost:3001/" + photo.url}/>
+                                        return <embed src={process.env.REACT_APP_RAILS  + photo.url}/>
+
+
                                 }
                             })()}
                             <br/>
