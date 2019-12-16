@@ -7,7 +7,7 @@ export const RECEIVE_VIDEOS = 'RECEIVE_VIDEOS';
 export const REQEUST_VIDEOS = 'REQEUST_VIDEOS';
 export const ADD_VIDEO = 'ADD_VIDEO';
 export const DELETE_VIDEO = 'DELETE_VIDEO';
-export const UPDATE_STATUS = ""
+export const UPDATE_STATUS = "";
 
 
 export const updateStatus = (status) => {
@@ -23,7 +23,7 @@ export const uploadVideo = (file, authtoken) => {
     form.append("video[video]", file);
     form.append("video[name]", file.name);
 
-    fetch("/videos", {
+    fetch("http://localhost:3001/videos", {
         method: 'POST',
         body: form,
         headers: {
@@ -33,10 +33,10 @@ export const uploadVideo = (file, authtoken) => {
         .then(response => {
             console.log(store);
             if (response.ok) {
-                store.dispatch(updateStatus((<div className="text-success">Uploaded successfully</div>)));
+                dispatch(updateStatus((<div className="text-success">Uploaded successfully</div>)));
                 return response.json()
             } else {
-                store.dispatch(updateStatus((<div className="text-danger">Error uploading.</div>)));
+                dispatch(updateStatus((<div className="text-danger">Error uploading.</div>)));
                 let error = response.status;
                 console.log("An error occured: ", error);
                 return null

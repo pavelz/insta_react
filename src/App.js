@@ -20,6 +20,8 @@ export const store = createStore(
 function App() {
   return (
       <Provider store={store}>
+
+
         <MainApp />
     <div className="App">
       <header className="App-header">

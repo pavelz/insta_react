@@ -1,6 +1,6 @@
 import React from "react"
 import {addPhoto,deletePhoto} from "./PhotoActions";
-import { connect } from 'react-redux'
+import {connect, Provider} from 'react-redux'
 
 import Pagination from "react-js-pagination";
 
@@ -38,10 +38,15 @@ class Photos extends React.Component {
         let {photos} = this.props
         return (
             <React.Fragment>
+
+                <div style={{width: 500 + 'px', margin: '0 auto'}}>
                 <b>Photos</b> - hello {this.state.activePage}
                 <br/>
-                {this.pagination()}
 
+                    {this.pagination()}
+                </div>
+
+                <div style={{width: 500 + 'px', margin: '0 auto'}}>
                 {photos.slice((this.state.activePage-1)*10, (this.state.activePage)*10).map(photo =>(
                         <React.Fragment key={photo.id}>
                             <b>{photo.name}</b><br/>
@@ -59,6 +64,7 @@ class Photos extends React.Component {
 
                     )
                 )}
+                </div>
                 {this.pagination()}
                 <b>EOL</b>
             </React.Fragment>

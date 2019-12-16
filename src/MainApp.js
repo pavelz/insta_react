@@ -25,7 +25,7 @@ class MainApp extends React.Component {
         return(
             <React.Fragment>
                 <Router>
-                    <h1>MainApp Component</h1>
+                    <h1>...</h1>
                     <Grid fluid>
                         <Row className="center-xs">
                             <Col xs={1} md={1}>
@@ -60,7 +60,7 @@ class MainApp extends React.Component {
 function Home (props) {
   return(
     <React.Fragment>
-      <h2> functional home </h2>
+      <h2> + </h2>
     </React.Fragment>
   );
 }
