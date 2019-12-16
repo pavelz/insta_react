@@ -55,7 +55,7 @@ class Photos extends React.Component {
                                     case 'Photo':
                                         return (<div><a href={photo.around_url}>{photo.location_name}</a> <br/> <img onClick={e => { this.deletePhoto(photo) }} src={"http://localhost:3001/" + photo.url}/></div>)
                                     case 'Video':
-                                        return <embed src={photo.url}/>
+                                        return <embed src={"http://localhost:3001/" + photo.url}/>
                                 }
                             })()}
                             <br/>

@@ -1,24 +1,20 @@
 import React from 'react'
 import fetch from 'cross-fetch'
 import "redux";
-import {store} from './App'
-export const FETCH_VIDEOS = 'FETCH_VIDEOS';
-export const RECEIVE_VIDEOS = 'RECEIVE_VIDEOS';
-export const REQEUST_VIDEOS = 'REQEUST_VIDEOS';
+import Video from "./Video";
 export const ADD_VIDEO = 'ADD_VIDEO';
 export const DELETE_VIDEO = 'DELETE_VIDEO';
-export const UPDATE_STATUS = "";
+export const UPDATE_STATUS = "UPDATE_STATUS";
 
-
-export const updateStatus = (status) => {
+export let updateStatus;
+updateStatus = (status) => {
     return {
-        UPDATE_STATUS,
+        type: UPDATE_STATUS,
         status
     }
-}
+};
 
-export const uploadVideo = (file, authtoken) => {
-
+export const uploadVideo = (file, auth_token, video) => {
     let form = new FormData();
     form.append("video[video]", file);
     form.append("video[name]", file.name);
@@ -27,16 +23,14 @@ export const uploadVideo = (file, authtoken) => {
         method: 'POST',
         body: form,
         headers: {
-            "X-CSRF-Token": authtoken
         }
     })
         .then(response => {
-            console.log(store);
             if (response.ok) {
-                dispatch(updateStatus((<div className="text-success">Uploaded successfully</div>)));
+                video(<div className="text-success">Uploaded successfully</div>)
                 return response.json()
             } else {
-                dispatch(updateStatus((<div className="text-danger">Error uploading.</div>)));
+                video(<div className="text-danger">Error uploading.</div>)
                 let error = response.status;
                 console.log("An error occured: ", error);
                 return null

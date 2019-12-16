@@ -3,14 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="fcde32bf-dc10-4d91-8163-9a89f0d3d06d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainApp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Paginator.jsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Photos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Photos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UploadVideoActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/UploadVideoActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UploadVideoActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/VideoActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Video.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Video.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VideoReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/VideoReducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +67,7 @@
         <script value="start" />
       </scripts>
       <node-interpreter value="project" />
+      <package-manager value="npm" />
       <envs />
       <method v="2" />
     </configuration>
@@ -109,6 +106,7 @@
       <updated>1575974701153</updated>
       <workItem from="1575974703335" duration="6997000" />
       <workItem from="1576075146141" duration="2746000" />
+      <workItem from="1576496923137" duration="4697000" />
     </task>
     <servers />
   </component>
@@ -116,14 +114,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="744" y="392" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576063584156">
+    <state x="722" y="372" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576513853490">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="744" y="392" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1417/2560.-118.1080.1897@0.23.2560.1417" timestamp="1576063584156" />
-    <state x="940" y="410" key="#npm_start" timestamp="1576067883175">
+    <state x="722" y="372" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1417/2560.-118.1080.1897@0.23.2560.1417" timestamp="1576513853490" />
+    <state x="940" y="410" key="#npm_start" timestamp="1576513967684">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="940" y="410" key="#npm_start/0.23.2560.1417/2560.-118.1080.1897@0.23.2560.1417" timestamp="1576067883175" />
+    <state x="940" y="410" key="#npm_start/0.23.2560.1417/2560.-118.1080.1897@0.23.2560.1417" timestamp="1576513967684" />
     <state width="2539" height="388" key="GridCell.Tab.0.bottom" timestamp="1576456422609">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
@@ -156,9 +154,9 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="945" y="351" width="670" height="675" key="run.anything.popup/0.23.2560.1417/2560.-118.1080.1897@0.23.2560.1417" timestamp="1576453150598" />
-    <state x="945" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1576453081322">
+    <state x="945" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1576489633827">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="945" y="348" width="670" height="676" key="search.everywhere.popup/0.23.2560.1417/2560.-118.1080.1897@0.23.2560.1417" timestamp="1576453081322" />
+    <state x="945" y="348" width="670" height="676" key="search.everywhere.popup/0.23.2560.1417/2560.-118.1080.1897@0.23.2560.1417" timestamp="1576489633827" />
   </component>
 </project>
