@@ -71,10 +71,11 @@
     "webpack": "4.41.2",
     "webpack-dev-server": "3.9.0",
     "webpack-manifest-plugin": "2.2.0",
-    "workbox-webpack-plugin": "4.3.1"
+    "workbox-webpack-plugin": "4.3.1",
+    "react-ga": "2.7.0"
   },
   "scripts": {
-    "start": "RAILS=127.0.0.1:3001 node scripts/start.js",
+    "start": "REACT_APP_RAILS=http://127.0.0.1:3001 node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js"
   },
